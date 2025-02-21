@@ -105,3 +105,5 @@ services:
       - prometheus
     volumes:
       - grafana-data:/var/lib/grafana
+volumes:
+  grafana-data:
